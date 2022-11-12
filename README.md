@@ -22,12 +22,12 @@ References:
 Flud Flow
 2. Fadl Moukalled, Luca Mangani, Marwan Darwish (2016)
 Implementation of boundary conditions in the finite-volume
-pressure-based method—Part I: Segregated solvers, Numer-
-ical Heat Transfer, Part B: Fundamentals, 69:6, 534-562,
+pressure-based method—Part I: Segregated solvers,
+Numerical Heat Transfer, Part B: Fundamentals, 69:6, 534-562,
 DOI: 10.1080/10407790.2016.1138748
-3. Breuer, M, Bernsdorf, J., ans T.Zeiser, F. D., 1999. “Accu-
-rate computations of the laminar flow past a square cylin-
-der based on two different methods: lattice boltzmann and
+3. Breuer, M, Bernsdorf, J., ans T.Zeiser, F. D., 1999. 
+“Accurate computations of the laminar flow past a square cylinder
+ based on two different methods: lattice boltzmann and
 finite-volume
 4. H K Versteeg, W Malalasekara, Textbook, An Introduction
 to computational Fluid Dynamics, Finite Volume Method
