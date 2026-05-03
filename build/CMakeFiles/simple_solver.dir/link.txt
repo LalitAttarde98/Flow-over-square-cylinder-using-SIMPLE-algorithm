@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimple_solver.a CMakeFiles/simple_solver.dir/src/SIMPLE_solver.cpp.o
+/usr/bin/ranlib libsimple_solver.a
