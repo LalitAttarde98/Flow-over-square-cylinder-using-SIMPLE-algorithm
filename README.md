@@ -6,8 +6,17 @@ for Pressure Linked Equations. The analysis focuses on the
 effect of Reynolds number, as determined by the input velocity
 parameters, on the flow around the square cylinder. Velocity profiles 
 along with an integral drag coefficient are investigated for
-laminar flows, and validated with the literature[3]. Please refere to doc for details
+laminar flows, and validated with the literature[3]. Refer to the technical ![report](doc/Project_Report.pdf) for implementation details and validation results.
 
+![Results](doc\results_100Re_flow_fields.png)
+
+# How to run the solver
+1) Define flow, grid, solver params, and position, size & number of obstacles in src/main.cpp
+2) Using cmake to build project
+   `mkdir build && cd build # Create build folder
+   `cmake ..                # Configure
+   `cmake --build .         # Build
+   `./run_solver            # Run
 
 References:
 1. Suhas V. Patankar, Textbook, Numerical Heat Transfer and
