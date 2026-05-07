@@ -1,22 +1,26 @@
 # Flow-over-square-cylinder-using-SIMPLE-algorithm
 
-The present work models a 2D flow around a square cylinder
-using a finite volume approach with Semi Implicit method
-for Pressure Linked Equations. The analysis focuses on the 
-effect of Reynolds number, as determined by the input velocity
-parameters, on the flow around the square cylinder. Velocity profiles 
-along with an integral drag coefficient are investigated for
-laminar flows, and validated with the literature[3]. Refer to the technical ![report](doc/Project_Report.pdf) for implementation details and validation results.
+The present work models a 2D flow around a square cylinder using a finite volume approach with the **Semi-Implicit Method for Pressure-Linked Equations (SIMPLE)**. The analysis focuses on the effect of the **Reynolds number**, determined by the inlet velocity parameters, on the flow behavior around the square cylinder. Velocity profiles, along with the integral drag coefficient, are investigated for laminar flow conditions and validated against published literature [3].
 
-![Results](doc\results_100Re_flow_fields.png)
+For implementation details and validation results, refer to the technical report:  
+📄 [Project Report](doc/Project_Report.pdf)
 
-# How to run the solver
-1) Define flow, grid, solver params, and position, size & number of obstacles in src/main.cpp
-2) Using cmake to build project
-   `mkdir build && cd build # Create build folder
-   `cmake ..                # Configure
-   `cmake --build .         # Build
-   `./run_solver            # Run
+## Simulation results
+
+![Results](doc/results_100Re_flow_fields.png)
+
+---
+
+## How to Run the Solver
+
+1. Define the flow conditions, grid parameters, solver settings, and obstacle geometry (position, size, and number of obstacles) in `src/main.cpp`.
+2. Build and run the project using CMake:
+```bash
+mkdir build && cd build   # Create build directory
+cmake ..                  # Configure project
+cmake --build .           # Build project
+./run_solver              # Run solver
+```
 
 References:
 1. Suhas V. Patankar, Textbook, Numerical Heat Transfer and
