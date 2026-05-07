@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/lattarde/workspace/lattarde/baseline/proj5743_apn_parking/apnlab_framework/src/deploy/backend/base/Flow-over-square-cylinder-using-SIMPLE-algorithm/build/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
